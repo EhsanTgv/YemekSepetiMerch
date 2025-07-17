@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             YemekSepetiMerchTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    CheckoutScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
